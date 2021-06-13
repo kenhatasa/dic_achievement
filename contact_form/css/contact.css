@@ -1,0 +1,54 @@
+
+
+table{
+  border-spacing: 10px 0px;
+}
+
+td, td, input, textarea{
+  box-sizing: border-box;
+}
+
+.contact tr{
+  height: 7rem;
+}
+.contact th{
+  width: 150px;
+  padding: 0px;
+  text-align: right;
+}
+.contact td{
+  width: 480px;
+  padding: 0px;
+}
+
+.side_menu li:last-child{
+  background-color: #FCECEC;
+  color: #4D4D4D;
+}
+
+.side_menu li:last-child a{
+  color: #4D4D4D;
+}
+
+.input-width{
+  width: 480px;
+}
+.input-radio span{
+  margin-right: 25px;
+}
+.input-radio input{
+  margin-right: 10px;
+}
+.submit{
+  text-align: center;
+}
+.submit span{
+  display: inline-block;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #008B8B;
+  padding: 10px;
+}
+.submit span:hover{
+  opacity: 0.6;
+}
