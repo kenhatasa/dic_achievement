@@ -21,7 +21,7 @@ class Player
         # puts "0:グー, 1:チョキ, 2:パー"
         # 変数「input_hand」にプレイヤーの入力値を代入します。
       else
-        puts "数字を入力してください。"
+        puts "0~2の数字を入力してください。"
         puts "0:グー, 1:チョキ, 2:パー"
         input_hand = gets.to_i
       # end if文のend
